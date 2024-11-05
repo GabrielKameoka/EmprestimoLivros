@@ -1,14 +1,14 @@
 ﻿@model IEnumerable<EmprestimosModel> 
 
 <div class="container">
-    <div class="d-flex justify-content-between align-items-center mb-5">
-        <h1>Empréstimos</h1>
-        <a class="btn btn-success mx-2" asp-controller="Emprestimo" asp-action="Cadastrar">Cadastrar novo empréstimo</a>
+    <div class="d-flex justify-content-between align-items-center mb-5 mt-5">
+        <h1>Lista de empréstimos</h1>
+        <a class="btn btn-success mx-2" asp-controller="Emprestimo" asp-action="Cadastrar"><i class="bi bi-bookmark-plus-fill me-2"></i>Cadastrar novo empréstimo</a>
     </div>
 
-    <table class="table table-dark table-hover rounded-3 overflow-hidden">
-        <thead>
-        <tr>
+    <table class="table table-light table-hover rounded-3 overflow-hidden p-5">
+        <thead class="bg-primary">
+        <tr class="bg-primary">
             <th scope="col">Recebedor</th>
             <th scope="col">Fornecedor</th>
             <th scope="col">Livro</th>
@@ -27,13 +27,12 @@
                     <td>@emprestimo.Livro</td>
                     <td>@emprestimo.dataUltimaAtualizacao</td>
                     <td>
-                        <a asp-controller="Emprestimo" asp-action="Editar" asp-route-id="@emprestimo.Id" class="btn btn-primary mx-2">Editar</a>
-                        <a asp-controller="Emprestimo" asp-action="Excluir" asp-route-id="@emprestimo.Id" class="btn btn-danger mx-2">Excluir</a>
+                        <a asp-controller="Emprestimo" asp-action="Editar" asp-route-id="@emprestimo.Id" class="btn btn-primary mx-2"><i class="bi bi-pencil-fill me-2"></i>Editar</a>
+                        <a asp-controller="Emprestimo" asp-action="Excluir" asp-route-id="@emprestimo.Id" class="btn btn-danger mx-2"><i class="bi bi-trash-fill me-2"></i>Excluir</a>
                     </td>
                 </tr>
             }
         }
         </tbody>
     </table>
-
 </div>

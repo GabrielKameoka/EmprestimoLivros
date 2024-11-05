@@ -140,3 +140,4 @@ C:\dev\EmprestimoLivros\EmprestimoLivros\obj\Debug\net8.0\refint\EmprestimoLivro
 C:\dev\EmprestimoLivros\EmprestimoLivros\obj\Debug\net8.0\EmprestimoLivros.pdb
 C:\dev\EmprestimoLivros\EmprestimoLivros\obj\Debug\net8.0\EmprestimoLivros.genruntimeconfig.cache
 C:\dev\EmprestimoLivros\EmprestimoLivros\obj\Debug\net8.0\ref\EmprestimoLivros.dll
+C:\dev\EmprestimoLivros\EmprestimoLivros\obj\Debug\net8.0\EmprestimoLivros.sourcelink.json

@@ -3,7 +3,7 @@
     ViewData["title"] = "Editar Empréstimo";
 }
 
-<div class="container bg-dark p-5 rounded-3 overflow-hidden">
+<div class="container bg-dark p-5 rounded-3 overflow-hidden mt-5">
 
     <div class="mb-5 text-center">
         <h1 class="text-light"> Edição de Empréstimos</h1>
@@ -15,25 +15,25 @@
         
         <div class="mb-3">
             <label for="Recebedor" class="form-label text-light">Recebedor</label>
-            <input type="text" class="form-control" asp-for="Recebedor" id="Recebedor" placeholder="Quem está recebendo o livro?">
+            <input type="text" class="form-control rounded-2" asp-for="Recebedor" id="Recebedor" placeholder="Quem está recebendo o livro?">
             <span asp-validation-for="Recebedor" class="text-danger"></span>
         </div>
 
         <div class="mb-3">
             <label for="Fornecedor" class="form-label text-light">Fornecedor</label>
-            <input type="text" class="form-control" asp-for="Fornecedor" id="Fornecedor" placeholder="Quem está emprestando o livro?">
+            <input type="text" class="form-control rounded-2" asp-for="Fornecedor" id="Fornecedor" placeholder="Quem está emprestando o livro?">
             <span asp-validation-for="Fornecedor" class="text-danger"></span>
         </div>
 
         <div class="mb-3">
             <label for="Livro" class="form-label text-light">Livro</label>
-            <input type="text" class="form-control" asp-for="Livro" id="Livro" placeholder="Qual é o livro?">
+            <input type="text" class="form-control rounded-2" asp-for="Livro" id="Livro" placeholder="Qual é o livro?">
             <span asp-validation-for="Livro" class="text-danger"></span>
         </div>
 
         <div class="d-flex gap-5 mt-5">
-            <button type="submit" class="btn btn-success m-50">Editar</button>
-            <a class="btn btn-primary m-50" asp-controller="Emprestimo" asp-action="Index">Voltar</a>
+            <button type="submit" class="btn btn-primary m-50">Editar</button>
+            <a class="btn btn-info m-50" asp-controller="Emprestimo" asp-action="Index">Voltar</a>
         </div>
     </form>
 </div>
