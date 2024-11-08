@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/qGbSysf0ru7gFkw5XMsrb3UXEQPYw40B/28paZW6is=",
+  "Hash": "K7iFSGPFG2YZvJo6dcvHPocN7E2OrVuHYdqWLztfhNo=",
   "Source": "EmprestimoLivros",
   "BasePath": "_content/EmprestimoLivros",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\dev\\EmprestimoLivros\\EmprestimoLivros\\wwwroot\\img\\Rider.png",
+      "SourceId": "EmprestimoLivros",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev\\EmprestimoLivros\\EmprestimoLivros\\wwwroot\\",
+      "BasePath": "_content/EmprestimoLivros",
+      "RelativePath": "img/Rider.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Rider.png"
     },
     {
       "Identity": "C:\\dev\\EmprestimoLivros\\EmprestimoLivros\\wwwroot\\js\\site.js",

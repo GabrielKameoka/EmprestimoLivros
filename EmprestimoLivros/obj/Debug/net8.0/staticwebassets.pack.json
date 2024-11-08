@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\dev\\EmprestimoLivros\\EmprestimoLivros\\wwwroot\\img\\Rider.png",
+      "PackagePath": "staticwebassets\\img\\Rider.png"
+    },
+    {
       "Id": "C:\\dev\\EmprestimoLivros\\EmprestimoLivros\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

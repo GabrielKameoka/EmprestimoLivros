@@ -5,6 +5,13 @@
         <h1>Lista de empréstimos</h1>
         <a class="btn btn-success mx-2" asp-controller="Emprestimo" asp-action="Cadastrar"><i class="bi bi-bookmark-plus-fill me-2"></i>Cadastrar novo empréstimo</a>
     </div>
+    
+    @if (TempData["MensagemSucesso"] != null)
+    {
+        <div class="alert alert-success text-success" role="alert">
+            @TempData["MensagemSucesso"]
+        </div>
+    }
 
     <table class="table table-light table-hover rounded-3 overflow-hidden p-5">
         <thead class="bg-primary">
